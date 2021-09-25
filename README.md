@@ -5,7 +5,8 @@ output: github_document
 
 # `gt::web_image()` - i know this one!
 
-```{r old, echo = TRUE, warning = FALSE}
+```
+{r old, echo = TRUE, warning = FALSE}
 library(gt)
 library(tibble)
 
@@ -130,3 +131,4 @@ acnh_bugs_n %>%
     }
   ) %
   cols_move_to_start(columns = vars(
+Kamm
